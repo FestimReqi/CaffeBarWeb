@@ -1,0 +1,200 @@
+/*# sourceMappingURL=footer.css.map */
+
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: 	#A0522D;
+}
+
+.footer .container .up{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .container .up .about{
+    width: 600px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .container .up .about h1{
+
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.footer .container .up .about h1:hover{
+    transform:rotate(-2deg)
+}
+
+.footer .container .up .about p{
+
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.footer .container .up .about p:hover{
+    transform:rotate(2deg)
+}
+
+
+.footer .container .up .categories h1{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.footer .container .up .categories h1:hover{
+    transform:rotate(2deg)
+}
+
+.footer .container .up .categories ul li{
+    list-style-type: none;
+}
+
+.footer .container .up .categories ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+/*
+.footer .container .up .categories ul li a:hover{
+    margin-left: 5px;
+}
+*/
+
+
+
+.footer .container .up .quick-links h1{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.footer .container .up .quick-links h1:hover{
+    transform:rotate(2deg)
+}
+
+.footer .container .up .quick-links ul li{
+    list-style-type: none;
+}
+
+.footer .container .up .quick-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+/*
+.footer .container .up .quick-links ul li a:hover{
+    margin-left: 5px;
+}
+*/
+
+.footer .container .brake{
+    padding: 0 50px;
+}
+
+
+.footer .container .down .copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .container .down .copyright .text{
+    color: #fff;
+}
+
+
+.footer .container .down .copyright .icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .container .down .copyright .icon a .facebook{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.footer .container .down .copyright .icon a .facebook:hover{
+    color: black;
+}
+
+
+.footer .container .down .copyright .icon a .instagram{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.footer .container .down .copyright .icon a .instagram:hover{
+    color: black;
+}
+
+
+.footer .container .down .copyright .icon a .dribbble{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.footer .container .down .copyright .icon a .dribbble:hover{
+    color: black;
+}
+
+.footer .container .down .copyright .icon a .twitter{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.footer .container .down .copyright .icon a .twitter:hover{
+    color: #000;
+}
+
+
+@media screen and (max-width: 950px){
+    .footer{
+        width: 100%;
+        height: 800px;
+        background-color: 	#A0522D;
+    }
+    .footer .container .up{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer .container .up .about{
+        width: 600px;
+        color: #fff;
+        transition: 0.3s ease-in-out;
+        text-align: center;
+    }
+    .footer .container .down .copyright{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        background-color: #A0522D;
+    }
+    .footer .container .brake{
+        padding: 0 50px;
+        background-color: #A0522D;
+    }
+}

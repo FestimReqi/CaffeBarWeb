@@ -1,0 +1,126 @@
+.second-page {
+  width: 100%;
+  height: 1250px;
+  background-color: #fff;
+}
+.second-page .sponsor .img {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+.second-page .sponsor .img a .google {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px 25px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: #dadada;
+  transition: 0.5s ease-in-out;
+}
+.second-page .sponsor .img a .google:hover {
+  background-color: #dadada;
+  color: yellow;
+}
+.second-page .sponsor .img a .facebook {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px 25px;
+  font-size: 30px;
+  text-align: center;
+  color: #dadada;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+}
+.second-page .sponsor .img a .facebook:hover {
+  color: blue;
+  background-color: #dadada;
+}
+.second-page .sponsor .img a .instagram {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px 25px;
+  font-size: 30px;
+  text-align: center;
+  color: #dadada;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+}
+.second-page .sponsor .img a .instagram:hover {
+  color: pink;
+  background-color: #dadada;
+}
+.second-page .store-select {
+  background: rgb(182, 152, 15);
+  background: linear-gradient(90deg, rgba(182, 152, 15, 0.7483368347) 0%, rgba(121, 76, 9, 0.3393732493) 45%, rgba(255, 196, 0, 0.6138830532) 100%), url(../../img/caffe-bar.png);
+  height: 800px;
+  width: 100%;
+}
+.second-page .store-select .text h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+.second-page .store-select .text h2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+.second-page .store-select .packet .all-packet {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  justify-content: space-around;
+}
+.second-page .store-select .packet .all-packet a {
+  width: 500px;
+  height: 0px;
+  transition: 0.2s ease-in-out;
+  z-index: 3;
+}
+.second-page .store-select .packet .all-packet a img {
+  width: 500px;
+}
+.second-page .store-select .packet .all-packet a:hover {
+  margin-top: -20px;
+}
+.second-page .store-select .packet .img {
+  position: relative;
+}
+.second-page .store-select .packet .img img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .second-page {
+    width: 100%;
+    height: 2200px;
+    background-color: rgba(121, 76, 9, 0.3393732493);
+  }
+  .second-page .sponsor .img {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+  }
+  .second-page .store-select .packet .all-packet {
+    background-color: rgba(121, 76, 9, 0.3393732493);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1500px;
+    justify-content: space-around;
+  }
+  .second-page .store-select .packet .img {
+    display: none;
+  }
+}/*# sourceMappingURL=second-page.css.map */

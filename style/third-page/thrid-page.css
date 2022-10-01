@@ -1,0 +1,68 @@
+.th-part {
+  width: 100%;
+  height: 600px;
+  background: url(../../img/caffe-blur-down.png);
+  background-position: center;
+}
+.th-part .text-and-button {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.th-part .text-and-button h1 {
+  color: #fff;
+  font-size: 50px;
+  text-shadow: 0px 0px 5px black;
+}
+.th-part .text-and-button .button button {
+  padding: 14px 16px;
+  border: none;
+  font-weight: 600;
+  background-color: #8B4513;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.th-part .text-and-button .button button svg {
+  text-align: center;
+}
+.th-part .text-and-button .button button:hover {
+  background-color: #c9651d;
+  transform: translate(5px);
+}
+
+@media screen and (max-width: 950px){
+  .th-part .text-and-button {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .th-part .text-and-button h1 {
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px black;
+  }
+  .th-part .text-and-button .button button {
+    padding: 10px 13px;
+    border: none;
+    font-weight: 600;
+    background-color: #8B4513;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+}
+
+
+/*# sourceMappingURL=thrid-page.css.map */
+

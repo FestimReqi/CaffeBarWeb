@@ -1,0 +1,152 @@
+
+
+
+.second-page{
+    width: 100%;
+    height: 1250px;
+    background-color: #fff;
+    .sponsor{
+        .img{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            height: 300px;
+
+            a{
+                .google{
+                    width: 300px;
+                    background-color: #fff;
+                    padding: 20px 25px;
+                    font-size: 30px;
+                    text-align: center;
+                    border-radius: 5px;
+                    color: #dadada;
+                    transition: 0.5s ease-in-out;
+                }
+                .google:hover{
+                    background-color: #dadada;
+                    color: yellow;
+                }
+            }
+            a{
+                .facebook{
+                    width: 300px;
+                    background-color: #fff;
+                    padding: 20px 25px;
+                    font-size: 30px;
+                    text-align: center;
+                    color: #dadada;
+                    transition: 0.5s ease-in-out;
+                    border-radius: 5px;
+                }
+                .facebook:hover{
+                    color: blue;
+                    background-color: #dadada;
+                }
+            }
+            a{
+                .instagram{
+                    width: 300px;
+                    background-color: #fff;
+                    padding: 20px 25px;
+                    font-size: 30px;
+                    text-align: center;
+                    color: #dadada;
+                    transition: 0.5s ease-in-out;
+                    border-radius: 5px;
+                }
+                .instagram:hover{
+                    color: pink;
+                    background-color: #dadada;
+                }
+            }
+        }
+    }
+    .store-select{
+        background: rgb(182,152,15);
+        background: linear-gradient(90deg, rgba(182,152,15,0.7483368347338936) 0%, rgba(121,76,9,0.3393732492997199) 45%, rgba(255,196,0,0.6138830532212884) 100%), url(/img/caffe-bar.png);
+        height: 800px;
+        width: 100%;
+        .text{
+            h1{
+                padding-top: 30px;
+                padding-bottom: 30px;
+                text-align: center;
+                color: #fff;
+            }
+            h2{
+                text-align: center;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                color: #fff;
+            }
+        }
+        .packet{
+            
+            .all-packet{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 500px;
+                justify-content: space-around;
+                a{
+                    width: 500px;
+                    height: 00px;
+                    transition: 0.2s ease-in-out;
+                    z-index: 3;
+                    img{
+                        width: 500px;
+                    }
+                }
+                a:hover{
+                    margin-top: -20px;
+                }
+            }
+            .img{
+                position: relative;
+                img{
+                    position: absolute;
+                    width: 100%;
+                    top: 0;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 950px){
+    .second-page{
+        width: 100%;
+        height: 2200px;
+        background-color: rgba(121,76,9,0.3393732492997199);
+        .sponsor{
+            .img{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                height: 300px;
+        }
+    }
+    .store-select{
+
+        .packet{
+            .all-packet{
+                background-color: rgba(121,76,9,0.3393732492997199);
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 1500px;
+                justify-content: space-around;
+            }
+
+            .img{
+                display: none;
+            }
+        }
+    }
+}
+}
